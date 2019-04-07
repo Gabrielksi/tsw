@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ClassCalculadoraTeste" project="ExerciciosTsw" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="Ex1_Calculadora.ClassCalculadoraTeste" time="0.008">
+    <testcase name="dividirSemValor" classname="Ex1_Calculadora.ClassCalculadoraTeste" time="0.004"/>
+    <testcase name="somarSemValorTest" classname="Ex1_Calculadora.ClassCalculadoraTeste" time="0.0"/>
+    <testcase name="dividir2Por20Test" classname="Ex1_Calculadora.ClassCalculadoraTeste" time="0.001"/>
+    <testcase name="somarValorNegativoTest" classname="Ex1_Calculadora.ClassCalculadoraTeste" time="0.0"/>
+    <testcase name="dividirFloatTest" classname="Ex1_Calculadora.ClassCalculadoraTeste" time="0.0"/>
+    <testcase name="raizQuadradaTest" classname="Ex1_Calculadora.ClassCalculadoraTeste" time="0.0"/>
+    <testcase name="somarTeste" classname="Ex1_Calculadora.ClassCalculadoraTeste" time="0.0"/>
+    <testcase name="dividir20Por2Test" classname="Ex1_Calculadora.ClassCalculadoraTeste" time="0.001"/>
+  </testsuite>
+</testrun>
