@@ -13,24 +13,12 @@ public class Ordenador {
 		return maiorValor;
 	}
 
-	public void setMaiorValor(double maiorValor) {
-		this.maiorValor = maiorValor;
-	}
-
 	public double getMenorValor() {
 		return menorValor;
 	}
 
-	public void setMenorValor(double menorValor) {
-		this.menorValor = menorValor;
-	}
-
 	public double getValorMedio() {
 		return valorMedio;
-	}
-
-	public void setValorMedio(double valorMedio) {
-		this.valorMedio = valorMedio;
 	}
 
 	public double getValorMediana() {
@@ -49,6 +37,15 @@ public class Ordenador {
 				maiorValor = valor;
 				this.maiorValor = Double.parseDouble(maiorValor);
 			}
+		}
+	}
+	
+	void informarValor(String pValor) {
+		if(Double.parseDouble(pValor) > this.maiorValor) {
+			this.maiorValor = Double.parseDouble(pValor);
+		}
+		if(pValor == "") {
+			throw new NumberFormatException("digite algum valor");
 		}
 	}
 	
